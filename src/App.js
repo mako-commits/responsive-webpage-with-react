@@ -6,6 +6,7 @@ import { About } from './pages/About';
 import { NoMatch } from './pages/NoMatch';
 import { Layout } from './components/Layout'
 import { Navigation } from './components/Navigation'
+import { Jumbo } from './components/Jumbo'
 
 
 
@@ -14,6 +15,7 @@ class App extends Component {
     return (
       <React.Fragment>
         <Navigation />
+        <Jumbo />
         <Layout>
           <Router>
             <Switch>

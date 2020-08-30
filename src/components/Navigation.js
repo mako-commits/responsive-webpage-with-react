@@ -9,12 +9,12 @@ export const Navigation = (props) => {
 
     return (
         <div>
-            <Navbar color="light" light expand="md" className="mb-3">
+            <Navbar light expand="md" style={{ backgroundColor: '#fff' }}>
                 <Container>
                     <NavbarBrand href="/">pythagoras</NavbarBrand>
                     <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar >
-                        <Nav className="ml-auto" navbar>
+                        <Nav className="ml-auto" navbar >
                             <NavItem>
                                 <NavLink href="/about">About</NavLink>
                             </NavItem>
